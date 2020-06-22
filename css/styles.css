@@ -1,0 +1,165 @@
+/****** html tags *****/
+span {
+  display: block;
+  letter-spacing: 10px;
+}
+
+p {
+  display: inline;
+  font-size: 12px;
+}
+
+footer {
+  margin: 20%;
+}
+
+/***** classes ****/
+.description {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  font-family: 'Inter', sans-serif;
+  width: 78%;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-image: linear-gradient(to right, #378fe6, #3eda82);
+  background-image: linear-gradient(to right, #378fe6, #3eda82);
+}
+
+.top-headings {
+  width: 80%;
+  font-weight: 700;
+}
+
+.custom-switch {
+  display: inline;
+  margin-left: 10px;
+}
+
+.dashboard {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  width: 70%;
+  margin-left: 10%;
+  font-size: 14px;
+  line-height: 3;
+}
+
+.no-of-followers {
+  font-weight: 800;
+}
+
+.profile-info {
+  text-align: center;
+  background-color: hsl(227, 47%, 96%);
+  border-radius: 5px;
+  padding-top: 2rem;
+}
+
+.facebook {
+  border-top: solid 5px hsl(208, 92%, 53%);
+}
+
+.profile-info:hover {
+  background-color: hsl(228, 12%, 44%);
+}
+
+.twitter {
+  border-top: solid 5px hsl(203, 89%, 53%);
+}
+
+.instagram {
+  border-top: 5px solid;
+  border-image: linear-gradient(to right, #FDC468, #DF4996);
+  border-image-slice: 1;
+}
+
+.youtube {
+  border-top: solid 5px hsl(348, 97%, 39%);
+}
+
+.followers-increase {
+  color: hsl(163, 72%, 41%);
+}
+
+.followers-decrease {
+  color: hsl(356, 69%, 56%);
+}
+
+.overview-heading {
+  font-family: 'Inter', sans-serif;
+  margin: 5% 10% 3%;
+  font-weight: 400;
+  color: hsl(228, 12%, 44%);
+  font-size: 2rem;
+}
+
+.overview {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 10%;
+  width: 70%;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.daily-overview {
+  background-color: hsl(227, 47%, 96%);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+}
+
+.daily-overview:hover {
+  background-color: hsl(228, 12%, 44%);
+}
+
+.total-no-of-likes {
+  font-size: 2rem;
+}
+
+.percent-change {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    margin: 0;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  #theme-switching {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dashboard {
+    grid-template-columns: auto;
+    margin: 0;
+    padding: 1rem;
+    grid-row-gap: 20px;
+  }
+
+  .overview {
+    grid-template-columns: auto;
+    margin: 0;
+    padding: 1rem;
+    grid-row-gap: 20px;
+  }
+}

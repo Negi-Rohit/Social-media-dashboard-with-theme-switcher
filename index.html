@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <title>Social media dashboard</title>
+
+
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="description">
+    <div class="top-headings">
+      <h3>Social Media Dashboard</h3>
+      <h6>Total Followers: 23,004</h6>
+    </div>
+
+    <div id="theme-switching">
+      Dark Mode
+      <div class=" custom-switch">
+        <input type="checkbox" class="custom-control-input checkbox" id="customSwitch1">
+        <label class="custom-control-label" for="customSwitch1"></label>
+      </div>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <div class="facebook profile-info">
+      <img src="images/icon-facebook.svg" alt=""> @nathanf
+      <h1 class="no-of-followers">1987</h1>
+
+      <span>Followers</span>
+      <img src="images/icon-up.svg" alt="">
+      <p class="followers-increase"> 12 Today</p>
+    </div>
+
+
+    <div class="twitter profile-info">
+      <img src="images/icon-twitter.svg" alt=""> @nathanf
+      <h1 class="no-of-followers"> 1044</h1>
+
+      <span> Followers</span>
+      <img src="images/icon-up.svg" alt="">
+      <p class="followers-increase">99 Today</p>
+    </div>
+
+
+    <div class="instagram profile-info">
+      <img src="images/icon-instagram.svg" alt=""> @realnathanf
+      <h1 class="no-of-followers">11k</h1>
+      <span>Followers</span>
+      <img src="images/icon-up.svg" alt="">
+      <p class="followers-increase">1099 Today</p>
+    </div>
+
+    <div class="youtube profile-info">
+      <img src="images/icon-youtube.svg" alt=""> Nathan F.
+      <h1 class="no-of-followers"> 8239</h1>
+      <span>Subscribers</span>
+      <img src="images/icon-down.svg" alt="">
+      <p class="followers-decrease">144 Today</p>
+    </div>
+  </div>
+
+
+
+  <h1 class="overview-heading">Overview - Today</h1>
+
+  <div class="overview">
+
+
+    <div class="daily-overview">
+      <p>Page Views</p>
+      <img src="images/icon-facebook.svg" alt="">
+      <p class="total-no-of-likes">87</p>
+
+      <p class="followers-increase percent-change  "> <img src="images/icon-up.svg" alt=""> 3%</p>
+    </div>
+
+    <div class="daily-overview">
+      <p> Likes</p>
+      <img src="images/icon-facebook.svg" alt="">
+      <p class="total-no-of-likes">52</p>
+      <p class="followers-decrease percent-change "> <img src="images/icon-down.svg" alt="">2%</p>
+
+    </div>
+
+    <div class="daily-overview">
+      <p> Likes</p>
+      <img src="images/icon-instagram.svg" alt="">
+      <p class="total-no-of-likes">5462</p>
+      <p class="followers-increase percent-change "> <img src="images/icon-up.svg" alt="">2257%</p>
+    </div>
+
+    <div class="daily-overview">
+      <p> Profile Views</p>
+      <img src="images/icon-instagram.svg" alt="">
+      <p class="total-no-of-likes"> 52k</p>
+      <p class="followers-increase percent-change "> <img src="images/icon-up.svg" alt="">1375%</p>
+    </div>
+
+    <div class="daily-overview">
+      <p> Retweets</p>
+      <img src="images/icon-twitter.svg" alt="">
+      <p class="total-no-of-likes">117</p>
+
+      <p class="followers-increase percent-change "><img src="images/icon-up.svg" alt="">303%</p>
+    </div>
+
+    <div class="daily-overview">
+      <p>Likes</p>
+      <img src="images/icon-twitter.svg" alt="">
+      <p class="total-no-of-likes">507</p>
+
+      <p class="followers-increase percent-change "> <img src="images/icon-up.svg" alt="">553</p>
+    </div>
+
+    <div class="daily-overview">
+      <p class="page-views">Likes</p>
+      <img src="images/icon-youtube.svg" alt="">
+      <p class="total-no-of-likes">107</p>
+
+      <p class="followers-decrease percent-change"> <img src="images/icon-down.svg" alt="">19%</p>
+
+    </div>
+
+    <div class="daily-overview">
+      <p>Total Views</p>
+      <img src="images/icon-youtube.svg" alt="">
+      <p class="total-no-of-likes"> 1407</p>
+
+      <p class="followers-decrease percent-change"><img src="images/icon-down.svg" alt="">12%</p>
+    </div>
+
+  </div>
+
+  <script src="javascript/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <footer> coded by Rohit negi</footer>
+</body>
+
+
+</html>
